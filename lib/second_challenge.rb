@@ -11,4 +11,5 @@ def second_challenge
   groceries.each do |type,item|
     list << type.values
     puts list
+  end
 end
