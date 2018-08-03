@@ -21,7 +21,7 @@ def first_challenge
           value.delete_if do |flavor|
             flavor == 'strawberry'
           end
-          return value
+          value
         end
       end
     end
