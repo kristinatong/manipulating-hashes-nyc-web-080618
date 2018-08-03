@@ -8,6 +8,6 @@ def second_challenge
 
   #code your solution here!
   values = []
-  groceries.collect do |type,item|
-    
+  groceries.each do |type,item|
+    type.values
 end
