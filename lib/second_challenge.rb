@@ -8,8 +8,5 @@ def second_challenge
 
   #code your solution here!
   list = []
-  groceries.each do |type,item|
-    list << type.values
-    puts list
-  end
+  list << groceries.values
 end
